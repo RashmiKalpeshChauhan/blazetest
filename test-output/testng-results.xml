@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-06T21:42:35 GST" name="Default suite" finished-at="2022-02-06T21:43:02 GST" duration-ms="26906">
+    <groups>
+    </groups>
+    <test started-at="2022-02-06T21:42:35 GST" name="Default test" finished-at="2022-02-06T21:43:02 GST" duration-ms="26906">
+      <class name="com.blazeTest.tests.BlazeTests">
+        <test-method is-config="true" signature="intiateDriver()[pri:0, instance:com.blazeTest.tests.BlazeTests@336365bc]" started-at="2022-02-06T21:42:35 GST" name="intiateDriver" finished-at="2022-02-06T21:42:48 GST" duration-ms="13055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- intiateDriver -->
+        <test-method signature="SignUp()[pri:1, instance:com.blazeTest.tests.BlazeTests@336365bc]" started-at="2022-02-06T21:42:48 GST" name="SignUp" finished-at="2022-02-06T21:42:51 GST" duration-ms="3557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SignUp -->
+        <test-method signature="login()[pri:2, instance:com.blazeTest.tests.BlazeTests@336365bc]" started-at="2022-02-06T21:42:52 GST" name="login" finished-at="2022-02-06T21:42:55 GST" duration-ms="2900" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="addProduct()[pri:3, instance:com.blazeTest.tests.BlazeTests@336365bc]" started-at="2022-02-06T21:42:55 GST" name="addProduct" finished-at="2022-02-06T21:42:58 GST" depends-on-methods="com.blazeTest.tests.BlazeTests.login" duration-ms="3535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addProduct -->
+        <test-method signature="placeOrder()[pri:4, instance:com.blazeTest.tests.BlazeTests@336365bc]" started-at="2022-02-06T21:42:58 GST" name="placeOrder" finished-at="2022-02-06T21:43:01 GST" depends-on-methods="com.blazeTest.tests.BlazeTests.addProduct" duration-ms="2885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- placeOrder -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.blazeTest.tests.BlazeTests@336365bc]" started-at="2022-02-06T21:43:01 GST" name="afterTest" finished-at="2022-02-06T21:43:02 GST" duration-ms="525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.blazeTest.tests.BlazeTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
