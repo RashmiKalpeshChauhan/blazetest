@@ -3,3 +3,4 @@
 <br>Take project checkout. </br>
 <br>Open folder location on cmd. </br>
 <br>Type mvn test and hit eneter. </br>
+<br>Testcases and bug report are present in TestcasesAndBugReport.xlsx file </br>
